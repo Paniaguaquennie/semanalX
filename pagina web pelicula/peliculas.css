@@ -1,0 +1,120 @@
+#menu{background-color: #2471A3; width:1330px; height: 40px;margin-top: 2px;padding-top: 10px; border-style:  solid; border-color: blue; }
+#menu a{color: white;margin-left: 40px;font-size: 22px;}
+#menu a:hover{color:yellow;}
+#inf_1{background-color: blue; margin-top: 60px; width: 320px; height: 420px; margin-left: 20px; border-radius: 20px;float:left; }
+#inf_1 .colon{background-image: url("coco.jpg");width: 300px;height: 300px;background-color: white;border:solid; border-color:white;margin-left: 5px;margin-top: 5px;}
+#inf_1 article{color:white; padding-left: 10px;}
+
+#inf_2{background-color: blue; margin-top: 60px; width: 320px; height: 420px; margin-left: 60px; border-radius: 20px;float:left;}
+#inf_2 .telemicro{background-image: url("poter.jpg");width: 260px;height: 270px;background-color: white;border:solid; border-color:white;margin-left: 25px;margin-top: 5px;}
+#inf_2 article{color:white; padding-left: 10px;}
+
+#inf_3{background-color: blue; margin-top: 60px; width: 320px; height: 420px; margin-left: 60px; border-radius: 20px;float:left;}
+#inf_3 .sindicalista{background-image: url("minion.jpg");width: 300px;height: 250px;background-color: white;border:solid; border-color:white;margin-left: 5px;margin-top: 5px;}
+#inf_3 article{color:white; padding-left: 10px;}
+#inf_3 article a{color:white;font-size: 20px;}
+#inf_3 article a:hover{color:red;font-size: 22px;}
+
+#cuadro4{background-color: blue; margin-top: 60px; width: 320px; height: 420px; margin-left: 20px; border-radius: 20px;float:left; }
+#cuadro4 .cuadro4{background-image: url("avatar2.jpg");width: 300px;height: 300px;background-color: white;border:solid; border-color:white;margin-left: 5px;margin-top: 5px;}
+#cuadro4 article{color:white; padding-left: 10px;}
+
+#cuadro5{background-color: blue; margin-top: 60px; width: 320px; height: 420px; margin-left: 60px; border-radius: 20px;float:left;}
+#cuadro5 .cuadro5{background-image: url("avenger2.jpg");width: 260px;height: 270px;background-color: white;border:solid; border-color:white;margin-left: 25px;margin-top: 5px;}
+#cuadro5 article{color:white; padding-left: 10px;}
+
+#cuadro6{background-color: blue; margin-top: 60px; width: 320px; height: 420px; margin-left: 60px; border-radius: 20px;float:left;}
+#cuadro6 .cuadro6{background-image: url("minion.jpg");width: 300px;height: 250px;background-color: white;border:solid; border-color:white;margin-left: 5px;margin-top: 5px;}
+#cuadro6 article{color:white; padding-left: 10px;}
+#cuadro6 article a{color:white;font-size: 20px;}
+#cuadro6 article a:hover{color:red;font-size: 22px;}
+
+
+
+
+#separador{background-color: blue; width: 1300px; height: 2px; margin-top:5px;}
+#pie{background-color: red;width: 1330px;height: 100px;  margin-top: 1000px;}
+#pie img{size: 10px;cursor:pointer;}
+#pie p{font-size: 30px;color:white;float:right;margin-right: 20px;}
+#listado1{color:white;font-size: 20px;float:right;margin-right: 90px;margin-top: 40px;}
+#aside{background-color: white; float:right;width: 240px; height: 970px;margin-top: 60px;}
+#aside ul{margin-left: 10px; margin-top: 10px;}
+#dia{background-color: yellow; color:white;font-size: 30px;width: 1050px;}
+#dia b{color: #2471A3; padding-left: 10px;}
+.cabecera {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.cabecera ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.cabecera li {
+	width: 100%;
+	list-style: none;
+}
+
+.cabecera img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+#aside {
+	width: 220px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#aside ul {
+	display: flex;
+	padding: 0;
+	width: 220px;
+	
+	animation: change 10s infinite alternate linear;
+}
+
+#aside li {
+	width: 220px;
+	list-style: none;
+}
+
+#aside img {
+	width: 220px;
+}
+
+@keyframes change {
+	0% {margin-left: 0;}
+	10% {margin-left: 0;}
+	
+	15% {margin-left: -100%;}
+	25% {margin-left: -100%;}
+	
+	30% {margin-left: -200%;}
+	45% {margin-left: -200%;}
+	
+	50% {margin-left: -300%;}
+	60% {margin-left: -300%;}
+
+	75% {margin-left: -400%;}
+	100% {margin-left: -400%;}
+}
+</style>
